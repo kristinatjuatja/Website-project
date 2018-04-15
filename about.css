@@ -1,0 +1,146 @@
+* {
+  font-family: sans-serif;
+  font: Verdana;
+  text-align: center;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.jumbotron {
+  background-image: url("https://www.telegraph.co.uk/gardening/gardeningpicturegalleries/10020548/Spring-finally-blossoms-in-pics.html");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+a{
+  color: white;
+}
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+li{
+  display: inline;
+  padding:0px 10px 0px 10px;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.8;
+} */
+
+h1 {
+    color: white;
+    width: 100%;
+    padding: 50px 14px 16px 50px;
+    font-size: 40px;
+}
+
+.jumbotron {
+  background-image: url("https://media.timeout.com/images/102522245/750/422/image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  max-height: 100px;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.container1 {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px 50px 50px 50px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  margin: auto;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+button[type="submit"] {
+  font-size: 18px;
+}
+
+/* .jumbotron {
+  background-image: url("http://www.theskinnybeep.com/wp-content/uploads/2013/06/Burberry-Prorsum-Menswear-Spring-Summer-2014-Show1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+} */
+
+/* p {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+} */
+
+
+.container {
+  align-items: center;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

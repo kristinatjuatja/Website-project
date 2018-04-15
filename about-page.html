@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Me</title>
+  <title>About</title>
+  <!-- <link href='css/bootstrap.css' rel='stylesheet'> -->
+  <link href="/normalize.css" rel="stylesheet">
+  <link href='about.css' rel='stylesheet'>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-<p>I visit many bakeries</p>
+  <header>
+    <h1>Welcome to The Ultimate Guide to London's Best Bakeries</h1>
+    <ul>
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">Best of Central London</a></li>
+      <li><a href="#">Best of East London</a></li>
+    </ul>
+  </header>
 
-<p>1. Nordic Bakery</p>
-<p>2. Dominique Ansel Bakery</p>
-<p>3. Rinkoff's Bakery</p>
+  <div class='jumbotron'>
+  </div>
 
-<p>If you want to follow my journey around London's best bakeries, enter your details below:</p>
-<form class="navbar-form navbar-left">
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Enter email address here">
+    <div class='container1'>
+    <p> London has so many great little places to visit, it's hard to know where to start. That's where we come in!</p>
+    <p>Welcome to our website, where we explore all corners of London to keep you up to date with our favourite bakeries in the city.</p>
+    <p>If you want to follow our journey around London's best bakeries, enter your details below to sign up to our newsletter:</p>
+    <p>
+      <input type="text" placeholder="Your name">
+      <input type="email" placeholder="Your email">
+      <input type="submit">
+
+  <script>
+      $("input").on("click", function() {
+        alert("Thank you for signing up! Look out for our next newsletter.")
+      });
+  </script>
+    <!-- <form class="navbar-form navbar-left">
+
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter email address here">
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter full name here">
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form> -->
+    </p>
   </div>
-  <p></p>
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Enter full name here">
+  <p>
+    <a href="https://facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a>
+    <a href="https://instagram.com" class="fa fa-instagram"></a>
+    <a href="https://pinterest.com" class="fa fa-pinterest"></a>
+    <a href="https://snapchat.com" class="fa fa-snapchat-ghost"></a>
+  </p>
   </div>
-  <p></p>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
 
 </body>
 </html>
