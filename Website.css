@@ -53,8 +53,6 @@ html {
   }
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,7 +60,6 @@ ul {
     overflow:hidden;
     background-color: #333;
 }
-
 
 h1 {
     color: white;
@@ -83,7 +80,6 @@ h1 {
   padding-top: 5px;
   padding-bottom: 0px;
 }
-
 
 .container0 {
   float: right;
