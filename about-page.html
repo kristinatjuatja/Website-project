@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/normalize.css" rel="stylesheet">
+<link href='about.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='Website.css' rel='stylesheet'>
+<ul>
+  <h1>
+    <div class=container>The Ultimate Guide to London's Best Bakeries</div>
+    <div class=container0>
+      <span style="font-size:40px;cursor:pointer;color:white;location:right" onclick="openNav()">&#9776;</span>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="file:///Users/kristinazhou/Desktop/Website-project/Main.html">Home</a>
+        <a href="file:///Users/kristinazhou/Desktop/Website-project/about-page.html">About Us</a>
+        <a href="file:///Users/kristinazhou/Desktop/Website-project/Bakeries.html">Bakeries</a>
+      </div>
+
+      <script>
+      function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+    </div>
+  </h1>
+</ul>
+</head>
+
+<body>
+
+
+  <div class='jumbotron'>
+  </div>
+
+    <div class='container8'>
+    <p> London has so many great little places to visit, it's hard to know where to start. That's where we come in!</p>
+    <p>Welcome to our website, where we explore all corners of London to keep you up to date with our favourite bakeries in the city.</p>
+    <p>If you want to follow our journey around London's best bakeries, enter your details below to sign up to our newsletter:</p>
+    <p>
+      <input type="name" placeholder="Your name">
+      <input type="email" placeholder="Your email">
+      <button class="w3-button w3-round-large w3-grey w3-hover-green" onclick="myFunction()">Submit</button>
+
+
+  <script>
+   function myFunction() {
+        alert("Thank you for signing up! Look out for our next newsletter.");
+      }
+  </script>
+    <!-- <form class="navbar-form navbar-left">
+
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter email address here">
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter full name here">
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form> -->
+    </p>
+  </div>
+  <p>
+    <a href="https://facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a>
+    <a href="https://instagram.com" class="fa fa-instagram"></a>
+    <a href="https://pinterest.com" class="fa fa-pinterest"></a>
+    <a href="https://snapchat.com" class="fa fa-snapchat-ghost"></a>
+  </p>
+  </div>
+
+</body>
+</html>
