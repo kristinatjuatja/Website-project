@@ -1,10 +1,13 @@
-* {
+h1 {
   font-family: sans-serif;
   font: Verdana;
-  text-align: center;
+  text-align: left;
   margin: auto;
 }
 
+body {
+  text-align: center;
+}
 .jumbotron {
   background-image: url("https://www.telegraph.co.uk/gardening/gardeningpicturegalleries/10020548/Spring-finally-blossoms-in-pics.html");
   background-size: cover;
